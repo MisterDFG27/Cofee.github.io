@@ -2473,6 +2473,16 @@ background: url("../../images/img2/back.jpg");
 
 /* Footer */
 
+#footer1 {
+	position: relative;
+	overflow: hidden;
+	padding: 16px;
+	background-image: url("../../images/Captura\ de\ pantalla\ 2021-04-18\ 231001.png");
+	background-size: cover;
+    background-position: center;
+	color: #fff;
+}
+
 	#footer {
 		position: relative;
 		overflow: hidden;
