@@ -2164,6 +2164,7 @@ input, select, textarea {
 
 	.wrapper {
 		background: #FDFEE0;
+		font: bold, italic;
 		margin: 0 0 2em 0;
 		padding: 6em 0 6em 0;
 	}
@@ -2171,15 +2172,6 @@ input, select, textarea {
 		.wrapper.style2 {
 			padding-top: 0;
 		}
-
-
-	.wrapper55{
-		background-image: url("../../images/img2/papaya.jpg");
-		opacity: 0.3;
-	}	
-
-
-
 	
 
 /* Header 
@@ -2473,6 +2465,16 @@ background: url("../../images/img2/back.jpg");
 
 /* Footer */
 
+#footer2 {
+	position: relative;
+	overflow: hidden;
+	padding: 16px;
+	color: black;
+	text-align: center;
+}
+
+
+
 #footer1 {
 	position: relative;
 	overflow: hidden;
@@ -2486,7 +2488,7 @@ background: url("../../images/img2/back.jpg");
 	#footer {
 		position: relative;
 		overflow: hidden;
-		padding: 6em 0 6em 0;
+		padding: 2em 0 2em 0;
 		background: #2b252c;
 		color: #fff;
 	}
@@ -2497,7 +2499,7 @@ background: url("../../images/img2/back.jpg");
 		}
 
 		#footer header {
-			text-align: center;
+			text-align: left;
 			cursor: default;
 		}
 
